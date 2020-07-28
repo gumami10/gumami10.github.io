@@ -1,22 +1,23 @@
 {
   "files": {
-    "main.css": "/extremely-secret-project/static/css/main.274b175e.chunk.css",
-    "main.js": "/extremely-secret-project/static/js/main.f8624e3d.chunk.js",
-    "main.js.map": "/extremely-secret-project/static/js/main.f8624e3d.chunk.js.map",
+    "main.css": "/extremely-secret-project/static/css/main.43d0d931.chunk.css",
+    "main.js": "/extremely-secret-project/static/js/main.acda2470.chunk.js",
+    "main.js.map": "/extremely-secret-project/static/js/main.acda2470.chunk.js.map",
     "runtime-main.js": "/extremely-secret-project/static/js/runtime-main.1e2d7367.js",
     "runtime-main.js.map": "/extremely-secret-project/static/js/runtime-main.1e2d7367.js.map",
-    "static/js/2.7dfa67e0.chunk.js": "/extremely-secret-project/static/js/2.7dfa67e0.chunk.js",
-    "static/js/2.7dfa67e0.chunk.js.map": "/extremely-secret-project/static/js/2.7dfa67e0.chunk.js.map",
+    "static/js/2.53dec89b.chunk.js": "/extremely-secret-project/static/js/2.53dec89b.chunk.js",
+    "static/js/2.53dec89b.chunk.js.map": "/extremely-secret-project/static/js/2.53dec89b.chunk.js.map",
     "index.html": "/extremely-secret-project/index.html",
-    "precache-manifest.e9ef31e513d59c010f3228fd2a4adc89.js": "/extremely-secret-project/precache-manifest.e9ef31e513d59c010f3228fd2a4adc89.js",
+    "precache-manifest.59e88f9975842dfbf92258b6fc91bb67.js": "/extremely-secret-project/precache-manifest.59e88f9975842dfbf92258b6fc91bb67.js",
     "service-worker.js": "/extremely-secret-project/service-worker.js",
-    "static/css/main.274b175e.chunk.css.map": "/extremely-secret-project/static/css/main.274b175e.chunk.css.map",
-    "static/js/2.7dfa67e0.chunk.js.LICENSE.txt": "/extremely-secret-project/static/js/2.7dfa67e0.chunk.js.LICENSE.txt"
+    "static/css/main.43d0d931.chunk.css.map": "/extremely-secret-project/static/css/main.43d0d931.chunk.css.map",
+    "static/js/2.53dec89b.chunk.js.LICENSE.txt": "/extremely-secret-project/static/js/2.53dec89b.chunk.js.LICENSE.txt",
+    "static/media/canvas.png": "/extremely-secret-project/static/media/canvas.9c96749c.png"
   },
   "entrypoints": [
     "static/js/runtime-main.1e2d7367.js",
-    "static/js/2.7dfa67e0.chunk.js",
-    "static/css/main.274b175e.chunk.css",
-    "static/js/main.f8624e3d.chunk.js"
+    "static/js/2.53dec89b.chunk.js",
+    "static/css/main.43d0d931.chunk.css",
+    "static/js/main.acda2470.chunk.js"
   ]
 }
