@@ -1,6 +1,6 @@
 {
-  "name": "extremely-secret-app",
   "homepage": "https://gumami10.github.io/extremely-secret-app",
+  "name": "extremely-secret-app",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
