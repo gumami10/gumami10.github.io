@@ -4,7 +4,7 @@ import { Card } from '@material-ui/core';
 import Stepper from './Stepper'
 
 const CardStyle = {
-  height: '500px',
+  height: 'auto',
   width: '1000px',
   backgroundColor: '#E6E6E6'
 }

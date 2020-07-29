@@ -7,6 +7,7 @@ import Button from '@material-ui/core/Button';
 import Typography from '@material-ui/core/Typography';
 import DayOne from './DayOne';
 import MissingDay from './MissingDay/index';
+import DayTwo from './DayTwo';
 
 const useStyles = makeStyles((theme: Theme) =>
   createStyles({
@@ -39,9 +40,9 @@ function getStepContent(step: number, error: boolean, setError: Function, setAns
     case 0:
       return <DayOne error={error} setAnswer={setAnswer} setError={setError}/>;
     case 1:
-      return <MissingDay />;
+      return <DayTwo error={error} setAnswer={setAnswer} setError={setError}/>;
     case 2:
-      return 'This is the bit I really care about!';
+      return <MissingDay />;
     default:
       return 'Unknown step';
   }
