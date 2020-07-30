@@ -9,6 +9,7 @@ import DayOne from './DayOne';
 import MissingDay from './MissingDay/index';
 import DayTwo from './DayTwo';
 import DayThree from './DayThree/index';
+import DayFour from './DayFour/index';
 
 const useStyles = makeStyles((theme: Theme) =>
   createStyles({
@@ -45,6 +46,8 @@ function getStepContent(step: number, error: boolean, setError: Function, setAns
     case 2:
       return <DayThree error={error} setAnswer={setAnswer} setError={setError}/>;
     case 3:
+      return <DayFour error={error} setAnswer={setAnswer} setError={setError}/>;
+    case 4:
       return <MissingDay />;
     default:
       return 'Unknown step';
@@ -61,7 +64,7 @@ export default function HorizontalLinearStepper() {
 
   const isNextStepDisabled = (step: number) => {
     
-    return step > 2;
+    return step > 3;
   };
 
   const handleNext = () => {
