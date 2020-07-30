@@ -1,5 +1,5 @@
 import React from 'react'
-import canvas from './canvas.png'
+import canvas from './canvas.jpg'
 import { makeStyles, Theme, createStyles } from '@material-ui/core/styles';
 
 

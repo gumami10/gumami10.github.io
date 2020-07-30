@@ -8,6 +8,7 @@ import Typography from '@material-ui/core/Typography';
 import DayOne from './DayOne';
 import MissingDay from './MissingDay/index';
 import DayTwo from './DayTwo';
+import DayThree from './DayThree/index';
 
 const useStyles = makeStyles((theme: Theme) =>
   createStyles({
@@ -42,6 +43,8 @@ function getStepContent(step: number, error: boolean, setError: Function, setAns
     case 1:
       return <DayTwo error={error} setAnswer={setAnswer} setError={setError}/>;
     case 2:
+      return <DayThree error={error} setAnswer={setAnswer} setError={setError}/>;
+    case 3:
       return <MissingDay />;
     default:
       return 'Unknown step';
@@ -56,8 +59,9 @@ export default function HorizontalLinearStepper() {
 
   const steps = getSteps();
 
-  const isNextStepAvailable = (step: number) => {
-    return step === 1;
+  const isNextStepDisabled = (step: number) => {
+    
+    return step > 2;
   };
 
   const handleNext = () => {
@@ -79,6 +83,7 @@ export default function HorizontalLinearStepper() {
 
   useEffect(() => {
     localStorage.setItem('mission', activeStep.toString());
+    setAnswer(false)
   }, [activeStep])
 
   return (
@@ -101,7 +106,7 @@ export default function HorizontalLinearStepper() {
             color="primary"
             onClick={handleNext}
             className={classes.button}
-            disabled={isNextStepAvailable(activeStep)}
+            disabled={isNextStepDisabled(activeStep)}
             >
             {activeStep === steps.length - 1 ? 'Finish' : 'Tentar'}
             </Button>
