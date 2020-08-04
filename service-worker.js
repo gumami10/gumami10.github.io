@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/extremely-secret-app/precache-manifest.22a36ff9f0a928ca89b9e863d2d60c8f.js"
+  "/extremely-secret-app/precache-manifest.65326353a436799f685c655c0bc4c2b0.js"
 );
 
 self.addEventListener('message', (event) => {
